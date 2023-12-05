@@ -4,8 +4,7 @@
 AI 검색 기능을 가진 스마트 갤러리 어플리케이션
 
 
-![vinonovi_system_architecture](https://github.com/vinonovi/vinonovi2/assets/71699054/74c00b40-0463-41b8-813d-687ab0681461)
-
+![Saira Kohli Vice President of Public Relations (2)](https://github.com/vinonovi/vinonovi2/assets/71699054/69871a84-77ca-4529-ae19-b249953436e8)
 
 
 
@@ -99,6 +98,6 @@ AI 검색 기능을 가진 스마트 갤러리 어플리케이션
 - 참여해주신 모든 분들 감사합니다!
 - GitHub : [Contributors](https://github.com/vinonovi/vinonovi2/pulse)
 - Designer : [vmkmym](https://github.com/vmkmym)
-- Maintainer : [jbrunoo](https://github.com/jbrunoo), [vmkmym](https://github.com/vmkmym), [hooniebee](https://github.com/hooniebee), [dopaminespark](https://github.com/dopaminespark), [appleweapons](https://github.com/appleweapons)
+- Maintainer : [jbrunoo](https://github.com/jbrunoo), [vmkmym](https://github.com/vmkmym), [hooniebee](https://github.com/hooniebee), [dopaminespark](https://github.com/dopaminespark), [appleweapons](https://github.com/appleweapons), [presentchris](https://github.com/presentchris)
 
 
