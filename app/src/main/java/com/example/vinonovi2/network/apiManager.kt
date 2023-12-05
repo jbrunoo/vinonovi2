@@ -1,21 +1,16 @@
-package com.example.vinonovi2
+package com.example.vinonovi2.network
 
 import android.content.Context
-import android.net.Uri
 import android.util.Log
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.MultipartBody
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import okhttp3.RequestBody
 import org.json.JSONArray
-import org.json.JSONObject
-import java.io.File
-import java.io.FileOutputStream
 import java.io.IOException
-import java.io.InputStream
+
+data class DataItem(val image: String, val answer: String)
 
 class ApiManager {
     suspend fun uploadImage(context: Context, question: String): List<DataItem> =
@@ -69,5 +64,3 @@ class ApiManager {
             return@withContext dataItemList
         }
 }
-
-data class DataItem(val image: String, val answer: String)
