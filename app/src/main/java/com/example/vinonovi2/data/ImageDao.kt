@@ -23,4 +23,5 @@ interface ImageDao {
 
     @Delete
     fun delete(image: Image)
+//    fun deleteByImageUrI(imageUri: String)
 }

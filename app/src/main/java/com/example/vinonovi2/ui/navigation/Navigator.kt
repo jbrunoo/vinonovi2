@@ -4,9 +4,9 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.vinonovi2.GalleryScreen
-import com.example.vinonovi2.SearchScreen
-import com.example.vinonovi2.UploadScreen
+import com.example.vinonovi2.ui.screen.GalleryScreen
+import com.example.vinonovi2.ui.screen.SearchScreen
+import com.example.vinonovi2.ui.screen.UploadScreen
 
 @Composable
 fun Navigator() {
