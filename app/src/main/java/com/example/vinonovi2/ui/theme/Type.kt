@@ -2,14 +2,23 @@ package com.example.vinonovi2.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.example.vinonovi2.R
+
+val gmarket_sans = FontFamily(
+    Font(R.font.gmarket_sans_light, FontWeight.Light, FontStyle.Normal),
+    Font(R.font.gmarket_sans_medium, FontWeight.Medium, FontStyle.Normal),
+    Font(R.font.gmarket_sans_bold, FontWeight.Bold, FontStyle.Normal)
+)
 
 // Set of Material typography styles to start with
 val Typography = Typography(
     bodyLarge = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = gmarket_sans,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp,
         lineHeight = 24.sp,

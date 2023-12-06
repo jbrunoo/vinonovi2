@@ -9,15 +9,20 @@ import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONArray
 import java.io.IOException
+import java.util.concurrent.TimeUnit
 
 data class DataItem(val image: String, val answer: String)
 
 class ApiManager {
-    suspend fun uploadImage(context: Context, question: String): List<DataItem> =
+    suspend fun uploadImage(question: String): List<DataItem> =
         withContext(Dispatchers.IO) {
             // navDeepLink
             val url = "http://192.168.1.44:5000/predict"
-            val client = OkHttpClient()
+            val client = OkHttpClient().newBuilder()
+                .connectTimeout(180, TimeUnit.SECONDS)
+                .readTimeout(180, TimeUnit.SECONDS)
+                .writeTimeout(180, TimeUnit.SECONDS)
+                .build()
 
             val requestBody = MultipartBody.Builder()
                 .setType(MultipartBody.FORM)
