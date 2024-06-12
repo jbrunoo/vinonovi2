@@ -90,8 +90,8 @@ AI 검색 기능을 가진 스마트 갤러리 어플리케이션
 ## 유저플로우
 <table>
   <tr>
-    <td><img src="https://github.com/vinonovi/vinonovi2/assets/125545555/20dcf8fb-b202-446b-89af-bdac564f5f48" width="250"><div align=center>Upload</div></td>
-    <td><img src="https://github.com/vinonovi/vinonovi2/assets/125545555/262c8b4b-e9c2-440a-a642-24d0e5d158bb" width="250"><div align=center>Gallery</div></td>
+    <td><img src="https://github.com/vinonovi/vinonovi2/assets/125545555/262c8b4b-e9c2-440a-a642-24d0e5d158bb" width="250"><div align=center>Upload</div></td>
+    <td><img src="https://github.com/vinonovi/vinonovi2/assets/125545555/20dcf8fb-b202-446b-89af-bdac564f5f48" width="250"><div align=center>Gallery</div></td>
     <td><img src="https://github.com/vinonovi/vinonovi2/assets/125545555/3c496101-8d12-40aa-8cd1-1cfc83e4c770" width="250"><div align=center>Search</div></td>
   </tr>
 </table>
